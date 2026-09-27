@@ -1,0 +1,23 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+ENV/
+
+# Кэш Python и компиляции
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# CatBoost логи и чекпоинты
+catboost_info/
+
+# Временные файлы Jupyter
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
